@@ -1,0 +1,6 @@
+@Outbox.Order_HostAddress = http://localhost:5025
+
+GET {{Outbox.Order_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
