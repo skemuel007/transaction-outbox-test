@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outbox.Order", "Outbox.Orde
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{0542C242-F2B4-4671-A675-DFAF25CB0195}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outbox.Notification", "Outbox.Notification\Outbox.Notification.csproj", "{50B0CCB7-C5B9-45B8-BE1C-BDF9CA0F6809}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,5 +22,9 @@ Global
 		{D3479404-78FE-425F-B8BF-29BB28869DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3479404-78FE-425F-B8BF-29BB28869DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3479404-78FE-425F-B8BF-29BB28869DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B0CCB7-C5B9-45B8-BE1C-BDF9CA0F6809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B0CCB7-C5B9-45B8-BE1C-BDF9CA0F6809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B0CCB7-C5B9-45B8-BE1C-BDF9CA0F6809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B0CCB7-C5B9-45B8-BE1C-BDF9CA0F6809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

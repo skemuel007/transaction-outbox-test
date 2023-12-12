@@ -14,7 +14,7 @@ public class Publisher : IPublisher
     public Publisher(ILogger<Publisher> logger)
     {
         _logger = logger;
-        var factory = new ConnectionFactory() { HostName = "rabbitmq", Port = 5672 };
+        var factory = new ConnectionFactory() { /*HostName = "rabbitmq"*/ HostName = "localhost", Port = 5672 };
         var connection = factory.CreateConnection();
         _channel = connection.CreateModel();
         _channel.QueueDeclare(queue: "OrderEventsQueue",
